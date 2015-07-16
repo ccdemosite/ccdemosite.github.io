@@ -1,0 +1,44 @@
+# Dependencies
+markdown:         kramdown
+redcarpet:
+  extensions: ["tables"]
+
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Pick a Title
+tagline:          'Something witty could go here'
+# url:              http://yoururl.com
+# shorturl:         yoururl.com
+
+author:
+  name:           'What's your name?'
+  url:            https://twitter.com/yourtwitter
+
+paginate:         10
+paginate_path: "/archives/page/:num"
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           github.com/username/username.github.io
+
+# This is the list of pages to include in the header of the website.
+pages_list:       
+  About: '/about/'
+  Archive: '/archive/'
+  Contact: '/contact/'
+  Feed: '/atom.xml'
+  
+# Gems  
+gems:
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+- jekyll-related_posts_
+
+

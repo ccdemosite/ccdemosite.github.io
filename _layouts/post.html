@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+
+  {% if page.link %}
+    <h1 class="post-title"><a href="{{ page.link }}">{{ page.title }} <span class="link-arrow"></span></a>&rarr;</h1>
+  {% else %}
+    <h1 class="post-title">{{ page.title }}</h1>
+  {% endif %}
+  
+  <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} &#183; {{ page.author }}{% endif %}{% if page.meta %} &#8226; {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <article class="post-content">
+  {{ content }}
+  </article>
+  
+ <!-- <h4>{% include twitter_plug.html %}</h4>-->
+  
+ 
+<p class="twitter-button">  
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="yourtwittername">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</p>
+ 
+</div>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="container content">
+      <div class="masthead">
+        <div class="masthead-title">
+          <a href="/" title="Home">{{ site.title }}</a>
+		  <br>
+          {% for page in site.pages_list %}
+		  <div class="nav">
+		  <ul>
+			  <li>
+             <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+		 </li>
+	 </ul>
+ </div>
+ 
+          {% endfor %}
+
+        </div>
+      </div>
+
+      {{ content }}
+
+      {% include comments.html %}
+
+      <div class="footer">
+		  <form method="get" id="search" action="http://duckduckgo.com/">
+		     <input type="hidden" name="sites" value="yoururl.com"/>
+		     <input type="hidden" name="ka" value="h"/>
+		     <input type="hidden" name="k7" value="#fafafa"/>
+		     <input type="hidden" name="kj" value="#bbbbbb"/>
+		     <input type="hidden" name="ky" value="#fafafa"/>
+		     <input type="hidden" name="kx" value="b"/>
+		     <input type="hidden" name="kt" value="Roboto Slab"/>
+		     <input type="text" name="q" maxlength="255" placeholder="Search"/>
+		     <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+		  </form>
+		  <p>
+		  Follow <a href="http://twitter.com/yourtwittername">@yourtwittername</a> on Twitter. Subscribe to this site's <a href="/atom.xml">RSS Feed</a>.
+	  </p>
+        <p>
+          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+		
+        </p>
+
+    </div>
+
+  </body>
+</html>
