@@ -17,6 +17,6 @@ This is a template of the personal website of [Clay Carson](http://claycarson.ne
 ## Future Improvements
 
 - Pagination
-- Social Sharing
+- Additional social sharing options
 
 Have a suggestion? Share it [here](http://claycarson.net/contact/).
