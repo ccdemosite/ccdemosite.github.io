@@ -1,6 +1,6 @@
 This is a template of the personal website of [Clay Carson](http://claycarson.net), hosted by [GitHub Pages](http://pages.github.com).
 
-Tutorials, instructions, tweaks, improvements...
+## Tutorials, instructions, tweaks, improvements...
 
 - [GitHub Pages](https://pages.github.com)
 - [Smashing Magazine Tutorial](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/)
@@ -13,3 +13,10 @@ Tutorials, instructions, tweaks, improvements...
 - [Google Analytics](http://www.google.com/analytics/)
 - [Jemoji](https://github.com/jekyll/jemoji)
 - [Sitemap](https://github.com/jekyll/jekyll-sitemap)
+
+## Future Improvements
+
+- Pagination
+- Social Sharing
+
+Have a suggestion? Share it [here](http://claycarson.net/contact/).
