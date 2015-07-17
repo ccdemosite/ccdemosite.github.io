@@ -1,7 +1,7 @@
 # Dependencies
-markdown:         kramdown
+markdown:      kramdown
 redcarpet:
-  extensions: ["tables"]
+extensions: ["tables"]
 
 pygments:         true
 
@@ -11,12 +11,11 @@ permalink:        pretty
 # Setup
 title:            Pick a Title
 tagline:          'Something witty could go here'
-# url:              http://yoururl.com
-# shorturl:         yoururl.com
+# url:              http://ccdemosite.github.io
+# shorturl:         ccdemosite.github.io
 
 author:
-  name:           'What's your name?'
-  url:            https://twitter.com/yourtwitter
+name:      'What is your name?'
 
 paginate:         10
 paginate_path: "/archives/page/:num"
@@ -25,7 +24,7 @@ paginate_path: "/archives/page/:num"
 version:          1.0.0
 
 github:
-  repo:           github.com/username/username.github.io
+  repo:           github.com/ccdemosite/ccdemosite.github.io
 
 # This is the list of pages to include in the header of the website.
 pages_list:       
@@ -40,5 +39,4 @@ gems:
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-related_posts_
-
 
