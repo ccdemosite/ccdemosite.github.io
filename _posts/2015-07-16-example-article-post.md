@@ -2,6 +2,7 @@
 layout: post
 title: "Example Article Post"
 date: January 1, 2000 17:13:43
+comments: true
 tags:
 - tag1
 - tag2

@@ -2,6 +2,7 @@
 layout: post
 title: "Example Draft"
 date: January 1, 2000 17:13:43
+comment: true
 tags:
 - tag1
 - tag2

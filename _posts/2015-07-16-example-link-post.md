@@ -2,6 +2,7 @@
 layout: post
 title: "Example Link Post"
 date: July 16, 2015 18:01:58
+comments: false
 tags:
 - tag1
 - tag2
